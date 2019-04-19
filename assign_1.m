@@ -1,0 +1,11 @@
+clear;
+close all;
+clc;
+
+% no idea what to do
+% ??????????????????
+t = 1000;
+d = 100;
+[u, v] = meshgrid(-t:d:t, -t:d:t);
+H = (u.*u) + (v.*v); 
+surf(u,v,H);
