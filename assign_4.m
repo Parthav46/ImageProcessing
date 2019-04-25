@@ -5,7 +5,7 @@ close all;
 I = imread('Image/gray.png');
 subplot(3,2,1);
 imshow(I);
-title('original image');
+title('orignal image');
 
 l = length(I(:,1));
 h = length(I(1,:));
